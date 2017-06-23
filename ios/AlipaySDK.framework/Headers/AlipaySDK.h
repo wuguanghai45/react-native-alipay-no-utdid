@@ -9,10 +9,10 @@
 
 ////////////////////////////////////////////////////////
 ///////////////// 支付宝标准版本支付SDK ///////////////////
-/////////// version:15.2.1  motify:2016.12.12 ///////////
+/////////// version:15.3.7  motify:2017.06.19 ///////////
 ////////////////////////////////////////////////////////
 
-#import <UIKit/UIKit.h>
+
 #import "APayAuthInfo.h"
 typedef enum {
     ALIPAY_TIDFACTOR_IMEI,
@@ -40,7 +40,7 @@ typedef void(^CompletionBlock)(NSDictionary *resultDic);
 /**
  *  用于设置SDK使用的window，如果没有自行创建window无需设置此接口
  */
-@property (nonatomic, weak) UIWindow *targetWindow;
+//@property (nonatomic, weak) UIWindow *targetWindow;
 
 /**
  *  支付接口
